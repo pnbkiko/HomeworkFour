@@ -102,7 +102,7 @@ public class OrdersManager {
     }
 
         for (String name : names){ // удалите из хеш-таблицы тех, чьи расходы строго меньше 5000
-
+                customersOrders.remove(name);
                 System.out.println("Клиента " + name + " больше нет в таблице.");
 }
     }
